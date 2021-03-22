@@ -130,10 +130,7 @@
 		}
 
 	</style>
-	
-<!-- Mirrored from darkmoddervc.github.io/PS4JB/75XV2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Mar 2021 19:40:16 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
+	<head>
 		<title>PS4 Jailbreak 7.5X</title>
 	</head>
 	<body onload="go()" class="bg">
@@ -171,7 +168,7 @@
 			for(var i = 0; i < lst.length; i++)
 			{
 				var xhr = new XMLHttpRequest();
-				xhr.open('GET.html', lst[i], false);
+				xhr.open('GET', lst[i], false);
 				xhr.send('');
 				scriptCode += xhr.responseText + '\n';
 			}
@@ -234,7 +231,7 @@
 					'<a href="#" id="fancontrol" class="button" onclick="toggle_payload(\'fancontrol\'); return false" style="width:29%">Fan Control</a>&nbsp;</td>'+
 					'</tr><tr><td><br/></td></tr>';
 			}
-			if(localStorage.jb=='jb.html'){document.getElementById('tog').checked=true;document.getElementById('oexp').style.color='gray';document.getElementById('nexp').style.color='white';}else{document.getElementById('tog').checked=false;document.getElementById('oexp').style.color='white';document.getElementById('nexp').style.color='gray';}
+			if(localStorage.jb=='jb.js'){document.getElementById('tog').checked=true;document.getElementById('oexp').style.color='gray';document.getElementById('nexp').style.color='white';}else{document.getElementById('tog').checked=false;document.getElementById('oexp').style.color='white';document.getElementById('nexp').style.color='gray';}
 		}
 		
 		window.midExploit = function()
@@ -263,9 +260,9 @@
 		};
 
 		</script>
-		<script src="webkit/utils.js"></script>
-		<script src="webkit/int64.js"></script>
-		<script src="webkit/ps4.js"></script>
+		<script src="./webkit/utils.js"></script>
+		<script src="./webkit/int64.js"></script>
+		<script src="./webkit/ps4.js"></script>
 		<h1 id="progress" class="titlehead">Loading.. Please Wait !!</h1><hr><br>
 		<button style="opacity:0" id="input1" onfocus="handle2()"></button>
 		<button style="opacity:0" id="input2"></button>
@@ -279,6 +276,4 @@
 		<table id="load" align="center" style="width:600px;margin-top:30px;">
 		</table>
 	</body>
-
-<!-- Mirrored from darkmoddervc.github.io/PS4JB/75XV2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Mar 2021 19:40:17 GMT -->
 </html>
