@@ -1,5 +1,5 @@
 # PS4JB
-
+Cloned from DarkModderVC
 This is an Offline full chain exploit for PS4 firmware 6.72, 7.02 & 7.55 with 100% Success Rate.
 
 ## Steps
@@ -22,6 +22,3 @@ https://www.youtube.com/channel/UCqP2nrYaECNZWfp7k4gbRBg
 * [TheFlow](https://hackerone.com/reports/826026) for the kernel exploit
 * [sleirsgoevy](https://github.com/sleirsgoevy/ps4jb) for the PS4 6.72 JB
 
-## Donate Me
-
-https://www.paypal.me/darkmodder
